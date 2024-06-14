@@ -48,7 +48,7 @@ INNER JOIN `merchants` AS m ON o.`merchant_id`=m.`merchant_id`
 INNER JOIN `refunds` AS r ON o.`order_id` = r.`order_id`
 GROUP BY ID_Operación, Fecha_Creación, Estado, Cantidad, ID_Comercio, País, Nombre;
 
-#4
+#5
 SELECT
 m.merchant_id AS ID_Comercio,
 m.name AS Nombre,
