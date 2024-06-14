@@ -31,4 +31,6 @@ Si no acepta (total de devoluciones es igual a cero) el campo debe contener el v
 
 4- Realizar una consulta donde se va a traer todos los campos de las tablas operaciones y comercios. De la tabla devoluciones se va a traer el conteo de devoluciones por operación y la suma del valor de las devoluciones. Una vez se tenga la consulta anterior, se crea una vista con el nombre orders_view dentro del esquema prestamos_2015 con esta consulta.
 
+5- A partir de los datos disponibles diseñar una funcionalidad que permita obtener un insight de interés sobre el caso de uso estudiado. Se propone estudiar los datos con el fin de evaluar el estado de los préstamos dados a los clientes hacia final de año y su trayectoria para estudiar el comportamiento del cliente en relación con sus prácticas de pago, de manera que se puedan evaluar eventuales campañas de marketing u otro tipo de iniciativas para potenciar el crecimiento de las ventas. Para ello es interesante estudiar los datos en relación al establecimiento y a las operaciones realizadas, de las cuales nos interesa saber cuales son las que se encuentran en estado vencido, cerrado o activo, y de estas las que aún se encuentran activas hacia final de año, para poder analizar patrones de comportamiento dependiendo del establecimiento y producto que venda.
+
 
